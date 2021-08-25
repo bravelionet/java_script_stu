@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> 事件 </title>
+    <script src="../js/EventJs.js"></script>
+</head>
+<body>
+
+<iframe onload="appOnload()" src="/index.html"></iframe>
+
+<p id="appOn"></p>
+
+<!-- onmouseenter 鼠标移动至元素值html元素进行修改
+     onmouseout 移走元素修改 html 元素
+     onload 页面加载即执行的事件 -->
+
+<button onmouseenter="appOnUpdate()" onmouseout="appOnmouseout()"> 更改字体</button>
+</body>
+
+</html>
